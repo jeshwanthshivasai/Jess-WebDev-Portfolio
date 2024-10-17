@@ -25,17 +25,17 @@ const userData = {
     {
       title: "To-Do ft.JS",
       link: "https://covidrescue.co.in",
-      imgUrl: "/covidrescue.png",
+      imgUrl: "/todo.png",
     },
     {
       title: "Music Website ft.React",
       link: "https://algochurn.com",
-      imgUrl: "/algochurn.png",
+      imgUrl: "/qtify.png",
     },
     {
       title: "Tic Tac Toe",
       link: "https://play.placeholdertech.in",
-      imgUrl: "/playground.png",
+      imgUrl: "/tic.png",
     },
     {
       title: "Movie Database ft.React",
