@@ -43,7 +43,7 @@ export default function FavouriteProjects() {
               <img
                 src="/weather.png"
                 alt="weather"
-                className="transform hover:scale-100 transition duration-2000 ease-out"
+                className="transform hover:scale-110 transition duration-2000 ease-out"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
               🌞⛅☔ Weather App 
@@ -63,7 +63,7 @@ export default function FavouriteProjects() {
               <img
                 src="/bootstrap.png"
                 alt="boostrap"
-                className="transform hover:scale-100 transition duration-2000 ease-out"
+                className="transform hover:scale-110 transition duration-2000 ease-out"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
                 Elewhen Photography
@@ -83,7 +83,7 @@ export default function FavouriteProjects() {
               <img
                 src="/clock.png"
                 alt="clock"
-                className="transform hover:scale-100 transition duration-2000 ease-out object-cover shadow-2xl"
+                className="transform hover:scale-110 transition duration-2000 ease-out object-cover shadow-2xl"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
                 Digital Clock
