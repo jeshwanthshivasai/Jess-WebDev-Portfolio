@@ -157,11 +157,11 @@ export default function AboutMe() {
             </h1>
             <div className="flex flex-row flex-wrap mt-8">
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
+                src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png"
+                src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg"
                 className="h-20 w-20 mx-4 my-4"
               />
               {/* <img
@@ -169,11 +169,11 @@ export default function AboutMe() {
                 className="h-20 w-20 mx-4 my-4"
               /> */}
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
+                src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_640.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"
+                src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               {/* <img
@@ -185,7 +185,7 @@ export default function AboutMe() {
                 className="h-20 w-20 mx-4 my-4"
               /> */}
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"
+                src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
@@ -201,8 +201,72 @@ export default function AboutMe() {
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"
+                src="https://cdn.iconscout.com/icon/free/png-256/free-mongodb-logo-icon-download-in-svg-png-gif-file-formats--wordmark-programming-langugae-freebies-pack-logos-icons-1175140.png?f=webp&w=256"
                 className="h-20 w-20 mx-4 my-4"
+              />
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Bash_Logo_black_and_white_icon_only.svg/672px-Bash_Logo_black_and_white_icon_only.svg.png"
+                className="h-20 w-20 mx-4 my-4"
+              />
+              <img
+                src="https://cdn.iconscout.com/icon/free/png-256/free-sass-logo-icon-download-in-svg-png-gif-file-formats--brand-development-tools-pack-logos-icons-226054.png?f=webp&w=256"
+                className="h-20 w-20 mx-4 my-4"
+              />
+              <img
+                src="https://static-00.iconduck.com/assets.00/postgresql-icon-1987x2048-v2fkmdaw.png"
+                className="h-20 w-20 mx-4 my-4"
+              />
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Visual_Studio_Code_0.10.1_icon.png"
+                className="h-20 w-20 mx-4 my-4"
+              />
+              <img
+                src="https://static.macupdate.com/products/11662/l/eclipse-ide-logo.png?v=1617819161"
+                className="h-20 w-20 mx-4 my-4"
+              />
+              <img
+                src="https://seeklogo.com/images/G/github-logo-7880D80B8D-seeklogo.com.png"
+                className="h-20 w-20 mx-4 my-4"
+              />
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Virtualbox_logo.png"
+                className="h-20 w-20 mx-4 my-4"
+              />
+              <img
+                src="https://cdn.worldvectorlogo.com/logos/office-2.svg"
+                className="h-20 w-20 mx-4 my-4"
+              />
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Adobe_Creative_Cloud_rainbow_icon.svg/2101px-Adobe_Creative_Cloud_rainbow_icon.svg.png"
+                className="h-20 w-20 mx-4 my-4"
+              />
+              <img
+                src="https://cdn.pixabay.com/photo/2017/01/31/15/33/linux-2025130_640.png"
+                className="h-20 w-20 mx-4 my-4"
+              />
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Logo_D3.svg/800px-Logo_D3.svg.png"
+                className="h-20 w-20 mx-4 my-4"
+              />
+              <img
+                src="https://static-00.iconduck.com/assets.00/jquery-original-wordmark-icon-1939x2048-155digcc.png"
+                className="h-20 w-20 mx-4 my-4"
+              />
+              <img
+                src="https://www.svgrepo.com/show/374118/tailwind.svg"
+                className="h-20 w-20 mx-4 my-4"
+              />
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg"
+                className="h-20 w-21 mx-4 my-4"
+              />
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/MacOS_logo.svg/1024px-MacOS_logo.svg.png"
+                className="h-20 w-21 mx-4 my-4"
+              />
+              <img
+                src="https://banner2.cleanpng.com/20180328/skq/avj7mdgpf.webp"
+                className="h-20 w-21 mx-4 my-4"
               />
             </div>
           </div>
