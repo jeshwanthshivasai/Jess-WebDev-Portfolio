@@ -265,7 +265,7 @@ export default function AboutMe() {
                 className="h-20 w-21 mx-4 my-4"
               />
               <img
-                src="https://banner2.cleanpng.com/20180328/skq/avj7mdgpf.webp"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Windows_logo_-_2012.svg/1024px-Windows_logo_-_2012.svg.png"
                 className="h-20 w-21 mx-4 my-4"
               />
             </div>
