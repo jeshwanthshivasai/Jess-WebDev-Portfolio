@@ -9,12 +9,12 @@ const userData = {
   projects: [
     {
       title: "Weather App ft.React",
-      link: "https://tailwindmasterkit.com",
+      link: "",
       imgUrl: "/weather.png",
     },
     {
       title: "Elewhen Photography",
-      link: "https://placeholdertech.in",
+      link: "",
       imgUrl: "/bootstrap.png",
     },
     {
@@ -24,28 +24,28 @@ const userData = {
     },
     {
       title: "To-Do ft.JS",
-      link: "https://covidrescue.co.in",
+      link: "",
       imgUrl: "/todo.png",
     },
     {
       title: "Music Website ft.React",
-      link: "https://algochurn.com",
+      link: "",
       imgUrl: "/qtify.png",
     },
     {
       title: "Tic Tac Toe",
-      link: "https://play.placeholdertech.in",
+      link: "",
       imgUrl: "/tic.png",
     },
     {
       title: "Movie Database ft.React",
-      link: "https://manuarora.in",
-      imgUrl: "/portfolio.png",
+      link: "",
+      imgUrl: "/",
     },
     {
       title: "Seriously Fakestore ft.React",
-      link: "https://devmedium.vercel.app",
-      imgUrl: "/devmedium.png",
+      link: "",
+      imgUrl: "/",
     },
   ],
   about: {
