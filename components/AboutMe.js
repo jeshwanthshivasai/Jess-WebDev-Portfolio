@@ -289,6 +289,10 @@ export default function AboutMe() {
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Adobe_Photoshop_Lightroom_CC_logo.svg/640px-Adobe_Photoshop_Lightroom_CC_logo.svg.png"
+                className="h-20 w-20 mx-4 my-4"
+              />
+              <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Vitejs-logo.svg/2078px-Vitejs-logo.svg.png"
                 className="h-20 w-20 mx-4 my-4"
               />
