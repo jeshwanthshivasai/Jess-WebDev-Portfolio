@@ -100,7 +100,7 @@ const userData = {
     },
   ],
   resumeUrl:
-    "https://1drv.ms/b/s!AgJHSGjBbVE0gY579XC0ONixM7nGwQ?e=dxNlah",
+    "https://1drv.ms/b/s!AgJHSGjBbVE0gY8QH9AczyErAQDowA?e=lY6xun",
   socialLinks: {
     instagram: "https://www.instagram.com/jeshwanthshivasai/",
     twitter: "https://x.com/jeshwanth_ss",
