@@ -157,11 +157,11 @@ export default function AboutMe() {
             </h1>
             <div className="flex flex-row flex-wrap mt-8">
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+                src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg"
+                src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               {/* <img
@@ -177,7 +177,7 @@ export default function AboutMe() {
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
+                src="https://cdn.iconscout.com/icon/free/png-256/free-sass-logo-icon-download-in-svg-png-gif-file-formats--brand-development-tools-pack-logos-icons-226054.png?f=webp&w=256"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
@@ -185,19 +185,7 @@ export default function AboutMe() {
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
                 src="https://cdn.iconscout.com/icon/free/png-256/free-mongodb-logo-icon-download-in-svg-png-gif-file-formats--wordmark-programming-langugae-freebies-pack-logos-icons-1175140.png?f=webp&w=256"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Bash_Logo_black_and_white_icon_only.svg/672px-Bash_Logo_black_and_white_icon_only.svg.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://cdn.iconscout.com/icon/free/png-256/free-sass-logo-icon-download-in-svg-png-gif-file-formats--brand-development-tools-pack-logos-icons-226054.png?f=webp&w=256"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
@@ -207,53 +195,25 @@ export default function AboutMe() {
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Visual_Studio_Code_0.10.1_icon.png"
                 className="h-20 w-20 mx-4 my-4"
-              />
+              />          
               <img
                 src="https://static.macupdate.com/products/11662/l/eclipse-ide-logo.png?v=1617819161"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://seeklogo.com/images/G/github-logo-7880D80B8D-seeklogo.com.png"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Vitejs-logo.svg/2078px-Vitejs-logo.svg.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Virtualbox_logo.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              {/* <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Microsoft_Office_PowerPoint_%282019%E2%80%93present%29.svg/2203px-Microsoft_Office_PowerPoint_%282019%E2%80%93present%29.svg.png"
+                src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Microsoft_Office_Word_%282019%E2%80%93present%29.svg/2203px-Microsoft_Office_Word_%282019%E2%80%93present%29.svg.png"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Github-desktop-logo-symbol.svg/2048px-Github-desktop-logo-symbol.svg.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg/512px-Microsoft_Office_Excel_%282019%E2%80%93present%29.svg.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Microsoft_Office_OneNote_%282019%E2%80%93present%29.svg/512px-Microsoft_Office_OneNote_%282019%E2%80%93present%29.svg.png"
-                className="h-20 w-20 mx-4 my-4"
-              /> */}
-              <img
-                src="https://cdn.worldvectorlogo.com/logos/office-2.svg"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Adobe_Creative_Cloud_rainbow_icon.svg/2101px-Adobe_Creative_Cloud_rainbow_icon.svg.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://cdn.pixabay.com/photo/2017/01/31/15/33/linux-2025130_640.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Logo_D3.svg/800px-Logo_D3.svg.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://static-00.iconduck.com/assets.00/jquery-original-wordmark-icon-1939x2048-155digcc.png"
+                src="https://d33wubrfki0l68.cloudfront.net/7c8561d6a2795e512d1f3165ed7edd9405419968/ad392/img/symbol/svg/full_colored_light.svg"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
@@ -265,11 +225,39 @@ export default function AboutMe() {
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/MacOS_logo.svg/1024px-MacOS_logo.svg.png"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Logo_D3.svg/800px-Logo_D3.svg.png"
+                className="h-20 w-20 mx-4 my-4"
+              />
+              <img
+                src="https://static-00.iconduck.com/assets.00/jquery-original-wordmark-icon-1939x2048-155digcc.png"
+                className="h-20 w-20 mx-4 my-4"
+              />
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Virtualbox_logo.png"
+                className="h-20 w-20 mx-4 my-4"
+              />
+              <img
+                src="https://cdn.pixabay.com/photo/2017/01/31/15/33/linux-2025130_640.png"
+                className="h-20 w-20 mx-4 my-4"
+              />
+              <img
+                src="https://seeklogo.com/images/A/apple-mac-os-logo-02F86B913E-seeklogo.com.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Windows_logo_-_2012.svg/1024px-Windows_logo_-_2012.svg.png"
+                className="h-20 w-20 mx-4 my-4"
+              />
+              <img
+                src="https://cdn.worldvectorlogo.com/logos/office-2.svg"
+                className="h-20 w-20 mx-4 my-4"
+              />
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Adobe_Creative_Cloud_rainbow_icon.svg/2101px-Adobe_Creative_Cloud_rainbow_icon.svg.png"
+                className="h-20 w-20 mx-4 my-4"
+              />
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
@@ -292,10 +280,7 @@ export default function AboutMe() {
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Adobe_Photoshop_Lightroom_CC_logo.svg/640px-Adobe_Photoshop_Lightroom_CC_logo.svg.png"
                 className="h-20 w-20 mx-4 my-4"
               />
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Vitejs-logo.svg/2078px-Vitejs-logo.svg.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
+              
             </div>
           </div>
         </div>
