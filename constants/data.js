@@ -1,7 +1,7 @@
 const userData = {
   githubUsername: "jeshwanthshivasai",
   name: "Jeshwanth Shiva Sai",
-  designation: "Front-End Developer",
+  designation: "Software Developer/UI Designer",
   avatarUrl: "https://avatars.githubusercontent.com/u/63970360?v=4",
   email: "havingthesensesofaspider@gmail.com",
   phone: "+91 9381288684",
@@ -62,12 +62,12 @@ const userData = {
     currentProjectUrl: "https://weather-app-ft-react.vercel.app/",
   },
   experience: [
-    // {
-    //   title: "To be a Web Developer",
-    //   company: "Your company name here if you hire me",
-    //   year: "2024",
-    //   desc: "",
-    // },
+    {
+      title: "To be a Developer/Designer",
+      company: "${Your company name here if you hire me}",
+      year: "2024",
+      desc: "I owe these guys everything, because in this corporate world where companies only choose Tier-1 candidates, these were the one who believed in my skill and determination",
+    },
     {
       title: "Freelancer Architect, Photographer, Videographer, Documentarian",
       year: "2023",
@@ -80,7 +80,7 @@ const userData = {
     },
     {
       title: "Internship",
-      company: "23 Degrees Design Studio" + "Liquid Space Studio",
+      company: "23 Degrees Design Studio" + " & " + "Liquid Space Studio",
       year: "2021",
     },
     {
@@ -100,7 +100,7 @@ const userData = {
     },
   ],
   resumeUrl:
-    "https://1drv.ms/b/s!AgJHSGjBbVE0gY8QH9AczyErAQDowA?e=lY6xun",
+    "https://drive.google.com/file/d/1ROQJ4cYR6kbBFID6rSIXHAA7IkEZ-zU4/view?usp=sharing",
   socialLinks: {
     instagram: "https://www.instagram.com/jeshwanthshivasai/",
     twitter: "https://x.com/jeshwanth_ss",
