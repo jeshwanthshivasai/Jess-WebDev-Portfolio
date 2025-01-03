@@ -102,6 +102,7 @@ const userData = {
   resumeUrl:
     "https://drive.google.com/file/d/1ROQJ4cYR6kbBFID6rSIXHAA7IkEZ-zU4/view?usp=sharing",
   socialLinks: {
+    youtube: "https://www.youtube.com/@JeshwanthShivaSai",
     instagram: "https://www.instagram.com/jeshwanthshivasai/",
     twitter: "https://x.com/jeshwanth_ss",
     linkedin: "https://www.linkedin.com/in/jeshwanthshivasai/",
