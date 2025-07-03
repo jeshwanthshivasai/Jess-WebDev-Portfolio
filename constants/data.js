@@ -9,12 +9,12 @@ const userData = {
   projects: [
     {
       title: "Weather App ft.React",
-      link: "",
+      link: "https://weather-app-ft-react.vercel.app/",
       imgUrl: "/weather.png",
     },
     {
       title: "Elewhen Photography",
-      link: "",
+      link: "https://bootup-bootstrap.vercel.app/",
       imgUrl: "/bootstrap.png",
     },
     {
