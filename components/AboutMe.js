@@ -202,10 +202,10 @@ export default function AboutMe() {
                 src="https://cdn.worldvectorlogo.com/logos/ant-design-2.svg"
                 className="h-20 w-20 mx-4 my-4"
               />
-              <img
+              {/* <img
                 src="https://static-00.iconduck.com/assets.00/postgresql-icon-1987x2048-v2fkmdaw.png"
                 className="h-20 w-20 mx-4 my-4"
-              />
+              /> */}
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Visual_Studio_Code_0.10.1_icon.png"
                 className="h-20 w-20 mx-4 my-4"
