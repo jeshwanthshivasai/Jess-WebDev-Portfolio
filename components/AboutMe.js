@@ -191,7 +191,7 @@ export default function AboutMe() {
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://cdn.iconscout.com/icon/free/png-256/free-sass-logo-icon-download-in-svg-png-gif-file-formats--brand-development-tools-pack-logos-icons-226054.png?f=webp&w=256"
+                src="https://cdn.iconscout.com/icon/free/png-256/free-sass-logo-icon-download-in-svg-png-gif-file-formats--brand-development-tools-pack-logos-icons-226054.png?"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
@@ -238,14 +238,14 @@ export default function AboutMe() {
                 src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/bootstrap-5-logo-icon.png"
                 className="h-20 w-20 mx-4 my-4"
               />
-              <img
+              {/* <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Logo_D3.svg/800px-Logo_D3.svg.png"
                 className="h-20 w-20 mx-4 my-4"
-              />
-              <img
+              /> */}
+              {/* <img
                 src="https://static-00.iconduck.com/assets.00/jquery-original-wordmark-icon-1939x2048-155digcc.png"
                 className="h-20 w-20 mx-4 my-4"
-              />
+              /> */}
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Virtualbox_logo.png"
                 className="h-20 w-20 mx-4 my-4"
