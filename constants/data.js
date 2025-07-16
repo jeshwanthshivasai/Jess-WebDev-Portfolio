@@ -76,7 +76,7 @@ const userData = {
     {
       title: "Junior Architect",
       year: "2021 - 2023",
-      desc: "Worked with quite a number of projects with multiple firms across the span of 2 years",
+      desc: "Worked on quite a number of projects with multiple firms across the span of 2 years",
     },
     {
       title: "Internship",
