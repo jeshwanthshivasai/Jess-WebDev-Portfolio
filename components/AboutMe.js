@@ -199,7 +199,7 @@ export default function AboutMe() {
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://cdn.iconscout.com/icon/free/png-256/free-mongodb-logo-icon-download-in-svg-png-gif-file-formats--wordmark-programming-langugae-freebies-pack-logos-icons-1175140.png?f=webp&w=256"
+                src="https://cdn.worldvectorlogo.com/logos/ant-design-2.svg"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
