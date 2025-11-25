@@ -1,6 +1,6 @@
 const userData = {
   githubUsername: "jeshwanthshivasai",
-  name: "Jeshwanth Shiva Sai",
+  name: "Jeshwanth Shiva Sai（ジェシュワント　シバサイ）",
   designation: "Product Designer/Web Dev",
   avatarUrl: "https://avatars.githubusercontent.com/u/63970360?v=4",
   email: "havingthesensesofaspider@gmail.com",
