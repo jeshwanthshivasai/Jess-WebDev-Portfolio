@@ -1,7 +1,7 @@
 const userData = {
   githubUsername: "jeshwanthshivasai",
   name: "Jeshwanth Shiva Sai",
-  designation: "Software Dev/UI Designer",
+  designation: "Product Designer/Web Dev",
   avatarUrl: "https://avatars.githubusercontent.com/u/63970360?v=4",
   email: "havingthesensesofaspider@gmail.com",
   phone: "+91 9381288684",
@@ -63,9 +63,9 @@ const userData = {
   },
   experience: [
     {
-      title: "To be a Developer/Designer",
-      company: "${Your company name here if you hire me}",
-      year: "2024",
+      title: "Designer/Developer",
+      company: "GenbaNEXT",
+      year: "2025",
       desc: "I owe these guys everything, because in this corporate world where companies only choose Tier-1 candidates, these were the one who believed in my skill and determination",
     },
     {
