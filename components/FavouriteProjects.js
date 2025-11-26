@@ -1,7 +1,28 @@
 import React from "react";
 import Link from "next/link";
+import userData from "@constants/data";
 
 export default function FavouriteProjects() {
+  // Get first 4 projects for the featured section
+  const featuredProjects = userData.projects.slice(0, 4);
+
+  // Helper function to format project number
+  const formatProjectNumber = (index) => {
+    const num = index + 1;
+    return num < 10 ? `0${num}` : `${num}`;
+  };
+
+  // Get tag color based on index
+  const getTagColor = (index) => {
+    const colors = [
+      "bg-red-500",
+      "bg-orange-500",
+      "bg-red-500",
+      "bg-red-500",
+    ];
+    return colors[index] || "bg-red-500";
+  };
+
   return (
     <div className="bg-[#F1F1F1] -mt-40 dark:bg-gray-900">
       <div className="max-w-6xl mx-auto">
@@ -33,66 +54,94 @@ export default function FavouriteProjects() {
         </header>
 
         {/* Grid starts here */}
-        <div className="grid md:grid-cols-3 gap-8 lg:-mt-8 pb-40">
-          {/* Single card */}
-          <a
-            href="https://weather-app-ft-react.vercel.app/"
-            className="w-full block col-span-3 shadow-2xl"
-          >
-            <div className="relative overflow-hidden">
-              <img
-                src="/weather.png"
-                alt="weather"
-                className="transform hover:scale-110 transition duration-2000 ease-out"
-              />
-              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-              🌞⛅☔ Weather App 
-              </h1>
-              <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
-                01
-              </h1>
-            </div>
-          </a>
-          {/* Single card */}
-          <a
-            href="https://bootup-bootstrap.vercel.app/"
-            className="w-full block col-span-3  sm:col-span-2 shadow-2xl"
-          >
-            <div className="relative overflow-hidden">
-              {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
-              <img
-                src="/bootstrap.png"
-                alt="boostrap"
-                className="transform hover:scale-110 transition duration-2000 ease-out"
-              />
-              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                Elewhen Photography
-              </h1>
-              <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
-                02
-              </h1>
-            </div>
-          </a>
-          {/* Single card */}
-          <a
-            href="https://digital-clock-chord-animation-ft-react.vercel.app/"
-            className="w-full block col-span-3 sm:col-span-1  object-cover"
-          >
-            <div className="relative overflow-hidden shadow-2xl">
-              {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
-              <img
-                src="/clock.png"
-                alt="clock"
-                className="transform hover:scale-110 transition duration-2000 ease-out object-cover shadow-2xl"
-              />
-              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                Digital Clock
-              </h1>
-              <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
-                03
-              </h1>
-            </div>
-          </a>
+        <div className="grid md:grid-cols-3 md:grid-rows-[auto_1fr_1fr] gap-8 lg:-mt-8 pb-40">
+          {/* Featured Project - First project spans full width */}
+          {featuredProjects[0] && (
+            <Link
+              href={`/projects/${featuredProjects[0].id}`}
+              className="w-full block col-span-3 shadow-2xl cursor-pointer"
+            >
+              <div className="relative overflow-hidden">
+                <img
+                  src={featuredProjects[0].imgUrl}
+                  alt={featuredProjects[0].title}
+                  className="transform hover:scale-110 transition duration-2000 ease-out w-full h-full object-cover"
+                />
+                <h1 className={`absolute top-10 left-10 text-gray-50 font-bold text-xl ${getTagColor(0)} rounded-md px-3 py-1`}>
+                  {featuredProjects[0].title}
+                </h1>
+                <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
+                  {formatProjectNumber(0)}
+                </h1>
+              </div>
+            </Link>
+          )}
+
+          {/* Second Project - Spans 2 columns and 2 rows (full height) */}
+          {featuredProjects[1] && (
+            <Link
+              href={`/projects/${featuredProjects[1].id}`}
+              className="w-full block col-span-3 sm:col-span-2 sm:row-span-2 sm:row-start-2 shadow-2xl cursor-pointer"
+            >
+              <div className="relative overflow-hidden h-full">
+                <img
+                  src={featuredProjects[1].imgUrl}
+                  alt={featuredProjects[1].title}
+                  className="transform hover:scale-110 transition duration-2000 ease-out w-full h-full object-cover"
+                />
+                <h1 className={`absolute top-10 left-10 text-gray-50 font-bold text-xl ${getTagColor(1)} rounded-md px-3 py-1`}>
+                  {featuredProjects[1].title}
+                </h1>
+                <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
+                  {formatProjectNumber(1)}
+                </h1>
+              </div>
+            </Link>
+          )}
+
+          {/* Third Project - Spans 1 column, positioned at the side of 2nd card */}
+          {featuredProjects[2] && (
+            <Link
+              href={`/projects/${featuredProjects[2].id}`}
+              className="w-full block col-span-3 sm:col-span-1 sm:col-start-3 sm:row-start-2 object-cover cursor-pointer h-full"
+            >
+              <div className="relative overflow-hidden shadow-2xl h-full">
+                <img
+                  src={featuredProjects[2].imgUrl}
+                  alt={featuredProjects[2].title}
+                  className="transform hover:scale-110 transition duration-2000 ease-out object-cover shadow-2xl w-full h-full"
+                />
+                <h1 className={`absolute top-10 left-10 text-gray-50 font-bold text-xl ${getTagColor(2)} rounded-md px-3 py-1`}>
+                  {featuredProjects[2].title}
+                </h1>
+                <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
+                  {formatProjectNumber(2)}
+                </h1>
+              </div>
+            </Link>
+          )}
+
+          {/* Fourth Project - Spans 1 column, positioned below 3rd card, sharing 2nd card height */}
+          {featuredProjects[3] && (
+            <Link
+              href={`/projects/${featuredProjects[3].id}`}
+              className="w-full block col-span-3 sm:col-span-1 sm:col-start-3 sm:row-start-3 object-cover cursor-pointer h-full"
+            >
+              <div className="relative overflow-hidden shadow-2xl h-full">
+                <img
+                  src={featuredProjects[3].imgUrl}
+                  alt={featuredProjects[3].title}
+                  className="transform hover:scale-110 transition duration-2000 ease-out object-cover shadow-2xl w-full h-full"
+                />
+                <h1 className={`absolute top-10 left-10 text-gray-50 font-bold text-xl ${getTagColor(3)} rounded-md px-3 py-1`}>
+                  {featuredProjects[3].title}
+                </h1>
+                <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
+                  {formatProjectNumber(3)}
+                </h1>
+              </div>
+            </Link>
+          )}
         </div>
       </div>
     </div>

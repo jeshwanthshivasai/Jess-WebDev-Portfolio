@@ -8,45 +8,109 @@ const userData = {
   address: "Hyderabad, Telangana, India.",
   projects: [
     {
-      title: "Weather App ft.React",
+      id: "saas-dashboard",
+      title: "Saas Dashboard",
+      category: "Web Design",
+      description: "A responsive weather application built with React that provides real-time weather information with an intuitive user interface.",
       link: "https://weather-app-ft-react.vercel.app/",
       imgUrl: "/weather.png",
+      tags: ["React", "API Integration", "Responsive Design"],
+      details: {
+        overview: "This weather application was built to showcase modern React development practices and API integration. The app fetches real-time weather data and displays it in a clean, user-friendly interface.",
+        technologies: ["React", "JavaScript", "CSS", "Weather API"],
+        features: [
+          "Real-time weather data",
+          "Location-based weather",
+          "Responsive design",
+          "Clean UI/UX"
+        ],
+        challenges: "Integrating with external APIs and handling async data loading were the main challenges in this project.",
+        solution: "Implemented proper error handling and loading states to ensure a smooth user experience."
+      }
     },
     {
-      title: "Elewhen Photography",
-      link: "https://bootup-bootstrap.vercel.app/",
-      imgUrl: "/bootstrap.png",
+      id: "brand-identity-system",
+      title: "Brand Identity System",
+      category: "Branding",
+      description: "A responsive weather application built with React that provides real-time weather information with an intuitive user interface.",
+      link: "https://weather-app-ft-react.vercel.app/",
+      imgUrl: "/weather.png",
+      tags: ["React", "API Integration", "Responsive Design"],
+      details: {
+        overview: "This weather application was built to showcase modern React development practices and API integration. The app fetches real-time weather data and displays it in a clean, user-friendly interface.",
+        technologies: ["React", "JavaScript", "CSS", "Weather API"],
+        features: [
+          "Real-time weather data",
+          "Location-based weather",
+          "Responsive design",
+          "Clean UI/UX"
+        ],
+        challenges: "Integrating with external APIs and handling async data loading were the main challenges in this project.",
+        solution: "Implemented proper error handling and loading states to ensure a smooth user experience."
+      }
     },
     {
-      title: "Digital Clock ft.React",
-      link: "https://digital-clock-chord-animation-ft-react.vercel.app/",
-      imgUrl: "/clock.png",
+      id: "e-commerce-design",
+      title: "E-Commerce Design",
+      category: "Web Design",
+      description: "A responsive weather application built with React that provides real-time weather information with an intuitive user interface.",
+      link: "https://weather-app-ft-react.vercel.app/",
+      imgUrl: "/weather.png",
+      tags: ["React", "API Integration", "Responsive Design"],
+      details: {
+        overview: "This weather application was built to showcase modern React development practices and API integration. The app fetches real-time weather data and displays it in a clean, user-friendly interface.",
+        technologies: ["React", "JavaScript", "CSS", "Weather API"],
+        features: [
+          "Real-time weather data",
+          "Location-based weather",
+          "Responsive design",
+          "Clean UI/UX"
+        ],
+        challenges: "Integrating with external APIs and handling async data loading were the main challenges in this project.",
+        solution: "Implemented proper error handling and loading states to ensure a smooth user experience."
+      }
     },
     {
-      title: "To-Do ft.JS",
-      link: "",
-      imgUrl: "/todo.png",
+      id: "lorem-ipsum",
+      title: "Lorum Ipsum",
+      category: "Web Design",
+      description: "A responsive weather application built with React that provides real-time weather information with an intuitive user interface.",
+      link: "https://weather-app-ft-react.vercel.app/",
+      imgUrl: "/weather.png",
+      tags: ["React", "API Integration", "Responsive Design"],
+      details: {
+        overview: "This weather application was built to showcase modern React development practices and API integration. The app fetches real-time weather data and displays it in a clean, user-friendly interface.",
+        technologies: ["React", "JavaScript", "CSS", "Weather API"],
+        features: [
+          "Real-time weather data",
+          "Location-based weather",
+          "Responsive design",
+          "Clean UI/UX"
+        ],
+        challenges: "Integrating with external APIs and handling async data loading were the main challenges in this project.",
+        solution: "Implemented proper error handling and loading states to ensure a smooth user experience."
+      }
     },
-    {
-      title: "Music Website ft.React",
-      link: "",
-      imgUrl: "/qtify.png",
-    },
-    {
-      title: "Tic Tac Toe",
-      link: "",
-      imgUrl: "/tic.png",
-    },
-    {
-      title: "Movie Database ft.React",
-      link: "",
-      imgUrl: "/",
-    },
-    {
-      title: "Seriously Fakestore ft.React",
-      link: "",
-      imgUrl: "/",
-    },
+    // {
+    //   title: "Music Website ft.React",
+    //   link: "",
+    //   imgUrl: "/qtify.png",
+    // },
+    // {
+    //   title: "Tic Tac Toe",
+    //   link: "",
+    //   imgUrl: "/tic.png",
+    // },
+    // {
+    //   title: "Movie Database ft.React",
+    //   link: "",
+    //   imgUrl: "/",
+    // },
+    // {
+    //   title: "Seriously Fakestore ft.React",
+    //   link: "",
+    //   imgUrl: "/",
+    // },
   ],
   about: {
     title:
