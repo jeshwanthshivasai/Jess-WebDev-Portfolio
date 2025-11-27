@@ -122,8 +122,8 @@ const userData = {
       `While I was self-learning both Python and Java initially, I Found my very interest in buildings User Interfaces and due to my deep interest in designing, I decided to become a Front-End Developer gradually building my confidence in the technical side of the building UIs. I'm also actively seeking a job as a Front-End Developer at startups and I'm also interested in building my own startup eventually down the lane after 10 years probably. Additionally, I aim to create engaging YouTube videos and is looking for creative minded people to support my ideas. My biggest struggle now is finding a job that aligns with my career transition to Tech, but I am remaining determined to succeed in my new chosen field.`,
       `My ultimate dream is to develop a product that helps people create things with ease and supports their livelihood, much like how YouTube, the Internet, and computers have revolutionised various industries. I'm particularly passionate about creating an AI-driven CAD and 3-D application that would significantly boost the workflow of architects, reducing the time spent on drafting from hours to minutes. With my diverse skill set, creative mindset, and determination to succeed, I believe I'm poised to make a significant impact in the Tech industry and make this world a better place for everyone.`,
     ],
-    currentProject: "Weather App ft.React",
-    currentProjectUrl: "https://weather-app-ft-react.vercel.app/",
+    // currentProject: "Weather App ft.React",
+    // currentProjectUrl: "https://weather-app-ft-react.vercel.app/",
   },
   experience: [
     {
@@ -134,7 +134,7 @@ const userData = {
     },
     {
       title: "Freelancer Architect, Photographer, Videographer, Documentarian",
-      year: "2023",
+      year: "2024",
       desc: "Worked along a couple of architectural projects whilst serving in other creative streams finding out my true passion for visual sttorytelling.",
     },
     {
@@ -164,15 +164,13 @@ const userData = {
     },
   ],
   resumeUrl:
-    "https://drive.google.com/file/d/1ROQJ4cYR6kbBFID6rSIXHAA7IkEZ-zU4/view?usp=sharing",
+    "https://drive.google.com/file/d/17CqdEETJaiKQFfKjkTqbfBdnZaTDynFf/view?usp=sharing",
   socialLinks: {
     youtube: "https://www.youtube.com/@JeshwanthShivaSai",
     instagram: "https://www.instagram.com/jeshwanthshivasai/",
     twitter: "https://x.com/jeshwanth_ss",
     linkedin: "https://www.linkedin.com/in/jeshwanthshivasai/",
     github: "https://github.com/jeshwanthshivasai",
-    facebook: "",
-    peerlist: "",
   },
 };
 
