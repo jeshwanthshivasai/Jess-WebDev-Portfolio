@@ -15,10 +15,10 @@ export default function FavouriteProjects() {
   // Get tag color based on index
   const getTagColor = (index) => {
     const colors = [
-      "bg-red-500",
-      "bg-orange-500",
-      "bg-red-500",
-      "bg-red-500",
+      "bg-red-600",
+      "bg-red-600",
+      "bg-red-600",
+      "bg-red-600",
     ];
     return colors[index] || "bg-red-500";
   };

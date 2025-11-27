@@ -11,7 +11,7 @@ export default function Home({ repositories }) {
   return (
     <ContainerBlock
       title="Jesse-DADDY"
-      description=""
+      description="Archi-Techie"
     >
       <Hero />
       <FavouriteProjects />

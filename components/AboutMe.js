@@ -55,7 +55,7 @@ export default function AboutMe() {
                 <a
                   href={userData.resumeUrl}
                   target="__blank"
-                  className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
+                  className="text-red-600 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-red-600"
                 >
                   CV
                 </a>{" "}

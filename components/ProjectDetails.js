@@ -52,7 +52,7 @@ export default function ProjectDetails({ project }) {
           <img
             src={project.imgUrl}
             alt={project.title}
-            className="w-full h-96 object-cover"
+            className="w-full h-100 object-cover"
           />
         </div>
 
