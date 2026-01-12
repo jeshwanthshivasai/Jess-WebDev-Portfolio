@@ -171,6 +171,30 @@ export default function AboutMe() {
             </h1>
             <div className="flex flex-row flex-wrap mt-8">
               <img
+                src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg"
+                className="h-20 w-20 mx-4 my-4"
+              />
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/1024px-Adobe_Photoshop_CC_icon.svg.png"
+                className="h-20 w-20 mx-4 my-4"
+              />
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Adobe_Premiere_Pro_CC_icon.svg/512px-Adobe_Premiere_Pro_CC_icon.svg.png"
+                className="h-20 w-20 mx-4 my-4"
+              />
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Adobe_After_Effects_CC_icon.svg/512px-Adobe_After_Effects_CC_icon.svg.png"
+                className="h-20 w-20 mx-4 my-4"
+              />
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/512px-Adobe_Illustrator_CC_icon.svg.png"
+                className="h-20 w-20 mx-4 my-4"
+              />
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Adobe_Photoshop_Lightroom_CC_logo.svg/640px-Adobe_Photoshop_Lightroom_CC_logo.svg.png"
+                className="h-20 w-20 mx-4 my-4"
+              />
+              <img
                 src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg"
                 className="h-20 w-20 mx-4 my-4"
               />
@@ -250,7 +274,7 @@ export default function AboutMe() {
                 src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Virtualbox_logo.png"
                 className="h-20 w-20 mx-4 my-4"
               />
-              <img
+              {/* <img
                 src="https://cdn.pixabay.com/photo/2017/01/31/15/33/linux-2025130_640.png"
                 className="h-20 w-20 mx-4 my-4"
               />
@@ -261,40 +285,15 @@ export default function AboutMe() {
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Windows_logo_-_2012.svg/1024px-Windows_logo_-_2012.svg.png"
                 className="h-20 w-20 mx-4 my-4"
-              />
-              <img
+              /> */}
+              {/* <img
                 src="https://cdn.worldvectorlogo.com/logos/office-2.svg"
                 className="h-20 w-20 mx-4 my-4"
-              />
-              <img
+              /> */}
+              {/* <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Adobe_Creative_Cloud_rainbow_icon.svg/2101px-Adobe_Creative_Cloud_rainbow_icon.svg.png"
                 className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/1024px-Adobe_Photoshop_CC_icon.svg.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Adobe_Premiere_Pro_CC_icon.svg/512px-Adobe_Premiere_Pro_CC_icon.svg.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Adobe_After_Effects_CC_icon.svg/512px-Adobe_After_Effects_CC_icon.svg.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/512px-Adobe_Illustrator_CC_icon.svg.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Adobe_Photoshop_Lightroom_CC_logo.svg/640px-Adobe_Photoshop_Lightroom_CC_logo.svg.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              
+              /> */}
             </div>
           </div>
         </div>
